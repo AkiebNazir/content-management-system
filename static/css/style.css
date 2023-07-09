@@ -14,7 +14,7 @@ body {
 
 /* Header */
 nav {
-    background-color: #333;
+    background-color: #7b6597;
     color: #fff;
 }
 
@@ -75,7 +75,24 @@ h1 {
 /* Footer */
 footer {
     background-color: #f0f0f0;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
 }
+
+
+.post-container {
+    position: relative;
+  }
+  
+  .edit-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #337ab7;
+    color: #5e2929;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  
+  
